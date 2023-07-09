@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Momentum App</title>
+  </head>
+  <body>
+    <form class="hidden" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="What is your name?"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 class="hidden" id="greeting"></h1>
+    <script src="greetings.js"></script>
+    <script src="clock.js"></script>
+  </body>
+</html>
+<!-- <script src="파일"></script> 
+script안의 제목이 틀려서 실행 못했었다. html이 자바스크립트의 기능을 불러와야하니 자바 파일의 이름이 같아야 하는것은 당연하다.
+이걸로 시계가 안나오는 오류는 해결했다.
+
+아직 greetings랑 style css오류는 해결 못했는데 아마 같은 이유일거 같다.
+-> 맞다 style css,js,전부다 파일명이 정확하게 일치해야 html이 불러올 수 있다.-->
