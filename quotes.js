@@ -49,3 +49,5 @@ const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.quote;
 author.innerText = todaysQuote.author;
+
+//깃허브 두번째로 저장하는 날인데 저장이 안되었다. 그 이유는 깃허브 저장방법 페이지에서 히스토리 만들기 (git commit -m "first commit")단계에서 first를 해서 안되었다. second으로 하니 해결이 되었다. 그러니 저장을 할때에는 저장순서 맞추기.
