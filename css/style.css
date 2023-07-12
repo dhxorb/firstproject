@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+  }
+
+  img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
+
+    /* 배경화면 화질이 gorgeous할때 깨지는데 그거 해결방법 모르겠음. */
